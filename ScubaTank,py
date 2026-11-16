@@ -18,7 +18,7 @@ class ScubaTank:
         if amount <= 0:
             print("Invalid amount.")
         elif amount > self.__bar:
-            print("NOt enough air.")
+            print("Not enough air.")
         else:
             self.__bar = self.__bar - amount
     def __str__ (self):
