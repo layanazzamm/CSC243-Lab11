@@ -1,3 +1,5 @@
+from Point import Point
+from Recatngle import Rectangle
 p1 = Point(1,2)
 p2 = Point(3.2, 4)
 R = Rectangle(p1, p2)
